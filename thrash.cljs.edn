@@ -1,0 +1,9 @@
+^{:log-syntax-error-style :concise}
+^{:css-dirs ["resources/public/css"]
+  :open-url false}
+{:main thrash.main
+ :output-to "dist/thrash.js"
+ :externs ["externs/rot-externs.js"]
+ :optimizations :advanced
+ :pseudo-names true
+ :pretty-print true}
